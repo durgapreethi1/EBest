@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#413e4f" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150px"
+        android:typeface="monospace"
+        android:textSize="50dp"
+        android:textColor="#51d8c7"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="EBEST" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:typeface="monospace"
+        android:textSize="16dp"
+        android:textColor="#51d8c7"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="....We serve the best!!!" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="500px"
+        android:layout_centerInParent="true"
+        android:src="@drawable/hhs" />
+
+
+
+
+</RelativeLayout>
